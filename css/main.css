@@ -2827,6 +2827,10 @@ blockquote span {
     padding-top: 15px;
 }
 
+.padding-t-30 {
+    padding-top: 30px;
+}
+
 .justify {
     text-align: justify;
 }
@@ -2845,6 +2849,10 @@ blockquote span {
 
 .col-black {
     color: black;
+}
+
+.col-orange {
+    color: #E58F11;
 }
 
 .ul-cos {
@@ -2880,3 +2888,9 @@ blockquote span {
     background-color: #263a4f;
     color: #fff;
 }
+
+.left-right-press {
+    padding-right: 12.5%;
+    padding-left: 12.5%;
+}
+

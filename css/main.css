@@ -733,7 +733,7 @@ ul.nav li.phone {
 
 ul.nav li.phone i {
     color: #E58F11;
-    margin-right: 5px;
+    margin-right: 0px;
 }
 
 ul.nav > li > a:hover,
@@ -2892,5 +2892,15 @@ blockquote span {
 .left-right-press {
     padding-right: 12.5%;
     padding-left: 12.5%;
+}
+
+.highlight {
+    background-color: #E58F11;
+    color: white !important;
+}
+
+.highlight:hover {
+    background-color: #E58F11;
+    color: #263a4f !important;
 }
 

@@ -2831,6 +2831,10 @@ blockquote span {
     padding-top: 30px;
 }
 
+.padding-t-40 {
+    padding-top: 40px;
+}
+
 .justify {
     text-align: justify;
 }
@@ -2848,7 +2852,7 @@ blockquote span {
 }
 
 .col-black {
-    color: black;
+    color: black !important;
 }
 
 .col-orange {

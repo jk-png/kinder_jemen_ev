@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Source + Sans + Pro|Poppins:600,
- 700|Work+Sans:600&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Source + Sans + Pro|Poppins:600, 700|Work+Sans:600&display=swap);
 @-webkit-keyframes sk-scaleout {
     0% {
         -webkit-transform: scale(0);
@@ -598,7 +597,7 @@ img {
 
 #mainmenu li ul {
     background-color: #fff;
-    width: 340px;
+    width: 350px;
     height: auto;
     position: absolute;
     left: 0;

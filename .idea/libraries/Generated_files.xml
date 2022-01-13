@@ -7,8 +7,8 @@
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/js/production/contact.min.js" />
-      <root url="file://$PROJECT_DIR$/js/production/main.min.js" />
+      <root url="file://$PROJECT_DIR$/website/js/production/main.min.js" />
+      <root url="file://$PROJECT_DIR$/website/js/production/contact.min.js" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

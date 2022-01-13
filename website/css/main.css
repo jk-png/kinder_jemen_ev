@@ -1,7 +1,6 @@
 /*  ==========================================================================
     Table of Contets
     ==========================================================================
-    
     1.0 Common Styles
     2.0 Header Section
     3.0 About Section
@@ -27,7 +26,7 @@
 		14.2 Google Map
     15.0 Blog Section
 		15.1 Pagination
-		15.2 Sidebar Style
+		15.2 Sidebar Stylemain-slider
 		15.3 Search Form Style
 		15.4 Thumbnails Post Style
 		15.5 Tag Cloud Style
@@ -848,7 +847,7 @@ ul.nav > li > a.active {
 }
 
 .about-bg1 {
-    background-image: url(../../img/strassen_kinder.jpg);
+    background-image: url(/website/img/strassen_kinder.jpg);
     background-position: top right;
     background-repeat: no-repeat;
     width: 100%;
@@ -859,7 +858,7 @@ ul.nav > li > a.active {
 }
 
 .about-bg2 {
-    background-image: url(../../img/unterernaehrt.jpg);
+    background-image: url(/website/img/unterernaehrt.jpg);
     background-position: top right;
     background-repeat: no-repeat;
     width: 100%;
@@ -870,7 +869,7 @@ ul.nav > li > a.active {
 }
 
 .about-bg3 {
-    background-image: url(../../img/krankenhaus.jpg);
+    background-image: url(/website/img/krankenhaus.jpg);
     background-position: top right;
     background-repeat: no-repeat;
     width: 100%;
@@ -886,7 +885,7 @@ ul.nav > li > a.active {
     top: 150px;
     width: 50%;
     height: 50%;
-    background: url(../img/dots.png) 0 0 repeat;
+    background: url(/website/img/dots.png) 0 0 repeat;
     z-index: -1;
 }
 
@@ -1035,7 +1034,7 @@ ul.nav > li > a.active {
 /* Video Box
 =============*/
 .about-section.bg-dark .video-play-bg {
-    background-image: url(../img/video-bg.jpg);
+    background-image: url(website/img/video-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1062,7 +1061,7 @@ ul.nav > li > a.active {
 
 /* About Style 4*/
 .about-section .about-slider-wrap {
-    background-image: url(../img/about-slider-bg.jpg);
+    background-image: url(website/img/about-slider-bg.jpg);
     background-repeat: no-repeat;
     background-position: left top;
     background-size: 80%;
@@ -1124,7 +1123,7 @@ ul.nav > li > a.active {
     height: 100%;
     left: 0;
     top: 0;
-    background: url(../img/bg-dots.png) 0 0 repeat;
+    background: url(website/img/bg-dots.png) 0 0 repeat;
     z-index: -1;
 }
 
@@ -1356,7 +1355,7 @@ ul.nav > li > a.active {
     height: 100%;
     left: 0;
     top: 0;
-    background: url(../img/bg-dots.png) 0 0 repeat;
+    background: url(website/img/bg-dots.png) 0 0 repeat;
     z-index: -1;
 }
 
@@ -1406,7 +1405,7 @@ ul.nav > li > a.active {
     height: 100%;
     left: 0;
     top: 0;
-    background: url(../img/bg-dots.png) 0 0 repeat;
+    background: url(website/img/bg-dots.png) 0 0 repeat;
     z-index: -1;
 }
 
@@ -1494,7 +1493,7 @@ ul.nav > li > a.active {
     height: 100%;
     left: 0;
     top: 0;
-    background: url(../img/bg-dots.png) 0 0 repeat;
+    background: url(website/img/bg-dots.png) 0 0 repeat;
     z-index: -1;
 }
 
@@ -1637,7 +1636,7 @@ ul.nav > li > a.active {
     height: 100%;
     left: 0;
     top: 0;
-    background: url(../img/bg-dots.png) 0 0 repeat;
+    background: url(website/img/bg-dots.png) 0 0 repeat;
     z-index: -1;
 }
 
@@ -1733,7 +1732,7 @@ ul.nav > li > a.active {
    CTA Section
    ========================================================================== */
 .cta-section {
-    background-image: url(../img/cta-bg.jpg);
+    background-image: url(website/img/cta-bg.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1754,7 +1753,7 @@ ul.nav > li > a.active {
    Hero Section
    ========================================================================== */
 .hero-section {
-    background-image: url(../img/home-classic-background.jpg);
+    background-image: url(website/img/home-classic-background.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1822,7 +1821,7 @@ ul.nav > li > a.active {
 }
 
 .hero-section.video-hero {
-    background-image: url(../img/home-video-background.jpg);
+    background-image: url(website/img/home-video-background.jpg);
 }
 
 .hero-section.video-hero:before {
@@ -1853,7 +1852,7 @@ ul.nav > li > a.active {
    Page Header Section
    ========================================================================== */
 .page-header {
-    background-image: url(../img/page-header.jpg);
+    background-image: url(website/img/page-header.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -1943,7 +1942,7 @@ ul.nav > li > a.active {
     height: 100%;
     left: 0;
     top: 0;
-    background: url(../img/bg-dots.png) 0 0 repeat;
+    background: url(website/img/bg-dots.png) 0 0 repeat;
     z-index: -1;
 }
 
@@ -2002,7 +2001,7 @@ ul.nav > li > a.active {
     height: 100%;
     left: 0;
     top: 0;
-    background: url(../img/bg-dots.png) 0 0 repeat;
+    background: url(website/img/bg-dots.png) 0 0 repeat;
     z-index: -1;
 }
 
@@ -2356,7 +2355,7 @@ blockquote .dots {
     height: 100%;
     left: 0;
     top: 0;
-    background: url(../img/bg-dots.png) 0 0 repeat;
+    background: url(website/img/bg-dots.png) 0 0 repeat;
     z-index: -1;
 }
 
@@ -2681,7 +2680,7 @@ blockquote span {
     height: 100%;
     left: 0;
     top: 0;
-    background: url(../img/bg-dots.png) 0 0 repeat;
+    background: url(website/img/bg-dots.png) 0 0 repeat;
     z-index: -1;
 }
 

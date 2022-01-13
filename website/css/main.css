@@ -625,7 +625,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     height: auto;
     position: absolute;
     left: 0;
-    top: 140%;
+    top: 120%;
     visibility: hidden;
     opacity: 0;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -660,7 +660,7 @@ a, a:hover, .overlay, img, .form-control, .form-control:hover, button {
     font-size: 14px;
     font-weight: 400;
     letter-spacing: -0.2px;
-    color: #8d9aa8;
+    color: #263a4f;
     -webkit-transition: color 0.3s ease 0s, padding 0.3s ease 0s;
     transition: color 0.3s ease 0s, padding 0.3s ease 0s;
 }

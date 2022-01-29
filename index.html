@@ -27,10 +27,14 @@
     <link rel="stylesheet" href="/website/css/production/responsive.min.css">
     <link rel="stylesheet" href="/website/css/production/flaticon.min.css">
     <script src="/website/js/production/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="/website/js/production/main.min.js"></script>
 </head>
 
 <body data-spy="scroll" data-target="#navmenu" data-offset="70">
 
+    <div class="site-preloader-wrap">
+        <div class="spinner"></div>
+    </div>
     <div id="load_header"></div>
 
     <div class="header-height"></div>
@@ -244,5 +248,7 @@
         $("#load_footer").load("/website/parts/footer.html");
     });
 </script>
+
+
 
 </html>

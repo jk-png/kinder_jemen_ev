@@ -847,7 +847,7 @@ ul.nav > li > a.active {
 }
 
 .about-bg1 {
-    background-image: url(/website/img/strassen_kinder.jpg);
+    background-image: url(/website/img/pictures/strassen_kinder.jpg);
     background-position: top right;
     background-repeat: no-repeat;
     width: 100%;
@@ -858,7 +858,7 @@ ul.nav > li > a.active {
 }
 
 .about-bg2 {
-    background-image: url(/website/img/unterernaehrt.jpg);
+    background-image: url(/website/img/pictures/unterernaehrt.jpg);
     background-position: top right;
     background-repeat: no-repeat;
     width: 100%;
@@ -869,7 +869,7 @@ ul.nav > li > a.active {
 }
 
 .about-bg3 {
-    background-image: url(/website/img/krankenhaus.jpg);
+    background-image: url(/website/img/pictures/krankenhaus.jpg);
     background-position: top right;
     background-repeat: no-repeat;
     width: 100%;

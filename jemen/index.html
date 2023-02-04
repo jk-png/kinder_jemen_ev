@@ -122,12 +122,6 @@
 <div id="load_footer"></div>
 </body>
 <script src="/website/js/production/vendor/jquery-1.12.4.min.js"></script>
-<script>
-    $(function () {
-        $("#load_header").load("/website/parts/header.html");
-        $("#load_footer").load("/website/parts/footer.html");
-    });
-</script>
 <script src="/website/js/production/vendor/bootstrap.min.js"></script>
 <script src="/website/js/production/vendor/tether.min.js"></script>
 <script src="/website/js/production/vendor/jquery.slicknav.min.js"></script>
@@ -142,4 +136,17 @@
 <script src="/website/js/production/vendor/wow.min.js"></script>
 <script src="/website/js/production/main.min.js"></script>
 
+  <script>
+    $(function () {
+        const headerWasLoaded = new Promise(resolve => { $("#load_header").load("/website/parts/header.html", resolve); });
+        const footerWasLoaded = new Promise(resolve => { $("#load_footer").load("/website/parts/footer.html", resolve); });
+
+        Promise.all([headerWasLoaded, footerWasLoaded]).then(() => {
+            const mainJs = document.createElement("script");
+            mainJs.setAttribute("src", "/website/js/production/main.min.js");
+            document.head.append(mainJs);
+        });
+    });
+</script>  
+    
 </html>

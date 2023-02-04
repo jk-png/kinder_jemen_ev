@@ -289,4 +289,17 @@
 <script src="/website/js/production/main.min.js"></script>
 
 
+<script>
+    $(function () {
+        const headerWasLoaded = new Promise(resolve => { $("#load_header").load("/website/parts/header.html", resolve); });
+        const footerWasLoaded = new Promise(resolve => { $("#load_footer").load("/website/parts/footer.html", resolve); });
+
+        Promise.all([headerWasLoaded, footerWasLoaded]).then(() => {
+            const mainJs = document.createElement("script");
+            mainJs.setAttribute("src", "/website/js/production/main.min.js");
+            document.head.append(mainJs);
+        });
+    });
+</script>
+
 </html>

@@ -43,7 +43,7 @@
     <div class="header-height"></div>
     <div id="main-slider" class="dl-slider">
         <div class="single-slide">
-            <div class="bg-img " style="background-image: url(website/img/pictures/slider-1.jpg);"></div>
+            <div class="bg-img " style="background-image: url(../website/img/pictures/slider-1.jpg);"></div>
             <div class="overlay"></div>
             <div class="slider-content-wrap d-flex align-items-center text-left">
                 <div class="container">
@@ -260,8 +260,8 @@
 
 <script>
     $(function () {
-        const headerWasLoaded = new Promise(resolve => { $("#load_header").load("/website/parts/header.html", resolve); });
-        const footerWasLoaded = new Promise(resolve => { $("#load_footer").load("/website/parts/footer.html", resolve); });
+        const headerWasLoaded = new Promise(resolve => { $("#load_header").load("/website/parts/es/header.html", resolve); });
+        const footerWasLoaded = new Promise(resolve => { $("#load_footer").load("/website/parts/es/footer.html", resolve); });
 
         Promise.all([headerWasLoaded, footerWasLoaded]).then(() => {
             const mainJs = document.createElement("script");

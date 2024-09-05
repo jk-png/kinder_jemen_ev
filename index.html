@@ -24,6 +24,23 @@
 
         gtag('config', 'AW-16634019885');
     </script>
+    <!-- Event snippet for Seitenaufruf conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+        function gtag_report_conversion(url) {
+            var callback = function() {
+                if (typeof(url) != 'undefined') {
+                    window.location = url;
+                }
+            };
+            gtag('event', 'conversion', {
+                'send_to': 'AW-16634019885/3-EdCIu1v8sZEK2A3Ps9',
+                'event_callback': callback
+            });
+            return false;
+        }
+    </script>
+
 
     <title>Kinder Jemens in Not e.v. | Startseite</title>
 

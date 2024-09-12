@@ -133,7 +133,8 @@ In your html page, add the snippet and call gtag_report_conversion when someone 
             <div class="about-content text-center">
                 <p class="justify">Der Initiator, Maged Al-Saidi, ist in Jemen aufgewachsen. Als Student kam er nach Deutschland und hat hier ein neues Zuhause gefunden. Die Idee der Gründung eines Vereins kam ihm, als er seinen Freunden und Kollegen vom Krieg und der Notlage
                     im Jemen erzählte und immer mehr Menschen ihn gefragt haben, wie sie helfen können. Zusammen mit Freunden gründete er deshalb den Verein „Kinder Jemens in Not“. </p>
-                <a href="https://www2.kinder-jemens-ev.com/ueber-uns/" class="default-btn">Mehr erfahren</a>
+                {# <a href="https://www2.kinder-jemens-ev.com/ueber-uns/" class="default-btn">Mehr erfahren</a> #}
+                <a onclick="return gtag_report_conversion('https://www2.kinder-jemens-ev.com/ueber-uns/');" href="https://www2.kinder-jemens-ev.com/ueber-uns/" class="default-btn">Mehr erfahren</a>
             </div>
         </div>
     </section>

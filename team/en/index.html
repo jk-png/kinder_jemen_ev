@@ -1,11 +1,14 @@
-<!doctype html><!--[if lt IE 7]>
+<!doctype html>
+<!--[if lt IE 7]>
 <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="de"> <![endif]-->
 <!--[if IE 7]>
 <html class="no-js lt-ie9 lt-ie8" lang="de"> <![endif]-->
 <!--[if IE 8]>
 <html class="no-js lt-ie9" lang="de"> <![endif]-->
 <!--[if gt IE 8]><!-->
-<html class="no-js" lang="de"> <!--<![endif]-->
+<html class="no-js" lang="de">
+<!--<![endif]-->
+
 <head>
     <!-- page specific -->
     <meta name="description" content="Children in Yemen suffer from malnutrition, lack of health care, school education at risk in Yemen, aid projects in Yemen, humanitarian aid for children, children's aid organizations in Yemen, emergency in Yemen, fighting poverty, humanitarian aid in Yemen, education programs, future children in Yemen, humanitarian crisis, children's rights in Yemen, food security in Yemen, conflict in Yemen, social development of children, traumatization of children in Yemen, health of children in Yemen, child labor in Yemen, traumatized children in Yemen, donate for Yemen, medical care for children in Yemen.">
@@ -13,9 +16,28 @@
     <link rel="alternate" href="https://kinder-jemens-ev.com/team/" hreflang="de">
     <link rel="alternate" href="https://kinder-jemens-ev.com/team/en/" hreflang="en">
     <!-- page specific -->
-    <meta property="og:image" content="https://kinder-jemens-ev.com/img/slider-1.jpg"/>
+    <meta property="og:image" content="https://kinder-jemens-ev.com/img/slider-1.jpg" />
     <meta property="og:title" content="Helping in Yemen. Directly. On site.">
-    <meta property="og:description" content="Children in Yemen suffer from malnutrition, lack of health care, school education at risk in Yemen, aid projects in Yemen, humanitarian aid for children, children's aid organizations in Yemen, emergency in Yemen, fighting poverty, humanitarian aid in Yemen, education programs, future children in Yemen, humanitarian crisis, children's rights in Yemen, food security in Yemen, conflict in Yemen, social development of children, traumatization of children in Yemen, health of children in Yemen, child labor in Yemen, traumatized children in Yemen, donate for Yemen, medical care for children in Yemen."/>
+    <meta property="og:description" content="Children in Yemen suffer from malnutrition, lack of health care, school education at risk in Yemen, aid projects in Yemen, humanitarian aid for children, children's aid organizations in Yemen, emergency in Yemen, fighting poverty, humanitarian aid in Yemen, education programs, future children in Yemen, humanitarian crisis, children's rights in Yemen, food security in Yemen, conflict in Yemen, social development of children, traumatization of children in Yemen, health of children in Yemen, child labor in Yemen, traumatized children in Yemen, donate for Yemen, medical care for children in Yemen."
+    />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16634019885"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'AW-16634019885');
+    </script>
+    <!-- Event snippet for Seiteaufrufe conversion page -->
+    <!-- Event snippet for Seitenaufruf conversion page -->
+    <script>
+        gtag('event', 'conversion', {
+            'send_to': 'AW-16634019885/3-EdCIu1v8sZEK2A3Ps9'
+        });
+    </script>
     <title>Kinder Jemens in Not e.v. | Team</title>
     <!-- do not change from here -->
     <meta charset="utf-8">
@@ -39,32 +61,33 @@
     <link rel="stylesheet" href="/website/css/production/flaticon.min.css">
     <script src="/website/js/production/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 </head>
+
 <body data-spy="scroll" data-target="#navmenu" data-offset="70">
-<div id="load_header"></div>
+    <div id="load_header"></div>
 
-<section class="padding " id="team">
-    <div class="container section-heading text-center mb-40">
-        <h1>The Team</h1>
-    </div>
-    <div class="container section-heading text-center mb-40">
-        <h3>On site in Yemen</h3>
-        <p>We work closely with our partner organization<b>"Yemen's children in need"</b> im Yemen.</p>
-    </div>
+    <section class="padding " id="team">
+        <div class="container section-heading text-center mb-40">
+            <h1>The Team</h1>
+        </div>
+        <div class="container section-heading text-center mb-40">
+            <h3>On site in Yemen</h3>
+            <p>We work closely with our partner organization<b>"Yemen's children in need"</b> im Yemen.</p>
+        </div>
 
-    <div id="team_loader"></div>
+        <div id="team_loader"></div>
 
-    <div class="container section-heading text-center mb-40 padding-t-40">
-        <h3>Volunteer support from Germany</h3>
-    </div>
+        <div class="container section-heading text-center mb-40 padding-t-40">
+            <h3>Volunteer support from Germany</h3>
+        </div>
 
-    <div id="team_ger_loader"></div>
+        <div id="team_ger_loader"></div>
 
-</section>
-<div id="load_footer"></div>
+    </section>
+    <div id="load_footer"></div>
 </body>
 <script src="/website/js/production/vendor/jquery-1.12.4.min.js"></script>
 <script>
-    $(function () {
+    $(function() {
         $("#team_ger_loader").load("/website/parts/team_ger.html");
         $("#load_footer").load("/website/parts/en/footer.html");
     });
@@ -83,9 +106,13 @@
 <script src="/website/js/production/vendor/wow.min.js"></script>
 <script src="/website/js/production/main.min.js"></script>
 <script>
-    $(function () {
-        const headerWasLoaded = new Promise(resolve => { $("#load_header").load("/website/parts/en/header.html", resolve); });
-        const footerWasLoaded = new Promise(resolve => { $("#load_footer").load("/website/parts/en/footer.html", resolve); });
+    $(function() {
+        const headerWasLoaded = new Promise(resolve => {
+            $("#load_header").load("/website/parts/en/header.html", resolve);
+        });
+        const footerWasLoaded = new Promise(resolve => {
+            $("#load_footer").load("/website/parts/en/footer.html", resolve);
+        });
 
         Promise.all([headerWasLoaded, footerWasLoaded]).then(() => {
             const mainJs = document.createElement("script");
@@ -94,4 +121,5 @@
         });
     });
 </script>
+
 </html>

@@ -33,7 +33,7 @@
 	Main Slider
 =========================================================================*/ 
     $(document).ready(function () {
-
+        $("#year").html(new Date().getFullYear());
         $('#main-slider').on('init', function(e, slick) {
             var $firstAnimatingElements = $('div.single-slide:first-child').find('[data-animation]');
             doAnimations($firstAnimatingElements);    
@@ -65,6 +65,26 @@
                 });
             });
         }
+        $("#mainmenu a").addClass(function() {
+            var newclassname = $(this).text().toLowerCase();
+            return newclassname.replace(/ /g,'-');
+        });
+        $("#mainmenu a").each(function() {
+            var location_pathname = $(location)[0].pathname,
+                location_hash = $(location)[0].hash,
+                menu_link = location_pathname + location_hash;
+    
+            console.log(location_pathname, location_hash, menu_link);    
+    
+            if (menu_link == $(this).attr('href')) {
+                $("#mainmenu a").removeClass('active');
+                $(this).addClass('active');
+            } 
+        });
+        $("#mainmenu a").click(function() {
+            $("#mainmenu a").removeClass('active');
+            $(this).addClass('active');
+        })
     });
 
 /*=========================================================================

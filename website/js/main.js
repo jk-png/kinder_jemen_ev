@@ -65,24 +65,26 @@
                 });
             });
         }
-        $("#mainmenu a").addClass(function() {
-            var newclassname = $(this).text().toLowerCase();
-            return newclassname.replace(/ /g,'-');
-        });
+        var location_pathname = $(location)[0].pathname,
+        location_hash = $(location)[0].hash,
+        menu_link = location_pathname + location_hash;
         $("#mainmenu a").each(function() {
-            var location_pathname = $(location)[0].pathname,
-                location_hash = $(location)[0].hash,
-                menu_link = location_pathname + location_hash;
             if (menu_link == $(this).attr('href')) {
                 $("#mainmenu a").removeClass('active');
                 $(this).addClass('active');
-            } 
+            }
         });
         $("#mainmenu a").click(function() {
             $("#mainmenu a").removeClass('active');
             $(this).addClass('active');
         })
-        $(".straßenkinder, .unterernährung, .kinderkrankenhauses").click(function() {
+        $("li ul li a").click(function() {
+            $("#mainmenu a").removeClass('active');
+            $(".projekte").addClass('active');
+        });
+
+        $("li ul li a.active").each(function() {
+            $("#mainmenu a").removeClass('active');
             $(".projekte").addClass('active');
         });
     });
